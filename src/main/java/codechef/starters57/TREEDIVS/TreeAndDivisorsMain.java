@@ -1,7 +1,5 @@
 package codechef.starters57.TREEDIVS;
 
-import codechef.starters57.TREEDIVS2.TreeAndDivisorsArray;
-
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -12,7 +10,7 @@ import java.io.PrintWriter;
 
 public class TreeAndDivisorsMain {
     public static void main(String[] args) throws IOException {
-        TreeAndDivisorsFactory factory = TreeAndDivisorsArray::new;
+        TreeAndDivisorsFactory factory = TreeAndDivisors4::new;
 
         //InputStream inputStream = System.in;
         InputStream inputStream = new FileInputStream("TREEDIVS");
