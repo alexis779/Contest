@@ -35,6 +35,7 @@ public class TreeAndDivisors3 extends AbstractTreeAndDivisors {
                     continue;
                 }
                 dc = mergeMultiplyExponents(dc, parentExponents, primeExponents[child]);
+                primeExponents[child] = null;
             }
         } else {
             parentExponents = valueExponents;
