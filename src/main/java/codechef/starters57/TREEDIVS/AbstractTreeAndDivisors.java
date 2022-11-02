@@ -1,8 +1,8 @@
 package codechef.starters57.TREEDIVS;
 
-import arithmetics.ModularArithmetics;
-import graph.tree.traversal.AdjacencyListDFSTraversal;
-import graph.tree.traversal.Traversal;
+import org.tech.vineyard.arithmetics.ModularArithmetics;
+import org.tech.vineyard.graph.tree.traversal.AdjacencyListDFSTraversal;
+import org.tech.vineyard.graph.tree.traversal.Traversal;
 
 import java.util.ArrayList;
 import java.util.Arrays;

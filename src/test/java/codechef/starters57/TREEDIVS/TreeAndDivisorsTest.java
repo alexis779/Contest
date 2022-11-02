@@ -2,6 +2,7 @@ package codechef.starters57.TREEDIVS;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -41,6 +42,7 @@ public class TreeAndDivisorsTest {
 
     @ParameterizedTest(name = "{0}, {1}, N={2}")
     @MethodSource
+    @Disabled
     void run(String inputType, String factoryType, int N, TreeGenerator generator, TreeAndDivisorsFactory factory) {
         runBatch(T, N, factory, generator);
     }
